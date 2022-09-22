@@ -1,0 +1,132 @@
+@media screen and (max-width: 960px) {
+    .nav-links a {
+        display: none;
+
+    }
+
+    .nav-header {
+        font-size: 1.6rem;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+        right: 1rem;
+
+    }
+
+    #responsive-list {
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: 1rem;
+        width: 25%;
+        text-decoration: none;
+        text-transform: uppercase;
+        position: absolute;
+        z-index: 2;
+        box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
+        border-radius: 0.5rem;
+    }
+
+    #responsive-list a {
+        color: #884271;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: auto;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    #responsive-list a:hover,
+    #responsive-list a:active {
+        box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
+        border-radius: 0.5rem;
+        background-color: #884271;
+        color: #fff;
+    }
+
+    #skills-section img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* UNIVERSAL */
+
+    html {
+        font-size: 12px;
+    }
+
+    body {
+        height: auto;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /*  NAV */
+
+    .nav-links a {
+        display: none;
+
+    }
+
+    .nav-header {
+        font-size: 1.6rem;
+    }
+
+    #responsive-links {
+        display: none;
+
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+        right: 1rem;
+
+    }
+
+    /* HEADER  */
+
+    .header-section {
+        height: 32rem;
+    }
+
+    .header-title {
+        font-size: 2rem;
+
+    }
+
+    .header-background {
+        height: 100%
+    }
+
+    /*  ABOUT ME */
+
+    /*  SKILLS */
+
+    /*  PROJECTS  */
+
+    .projects-description {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+
+    .portfolio-project-section {
+        width: 45%;
+    }
+
+    .bakery-project-section {
+        width: 45%;
+    }
+
+    .gym-project-section {
+        width: 50%;
+    }
+
+    /*  CONTACT ME  */
+
+}

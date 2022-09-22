@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link href="media-queries.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis:wght@700&family=EB+Garamond:ital,wght@0,700;1,600;1,700&family=Francois+One&family=Indie+Flower&family=Lobster&family=Orbitron:wght@700&family=Playfair+Display:ital,wght@0,700;1,700&family=Rubik+Moonrocks&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Frank+Ruhl+Libre:wght@700&family=Fredoka+One&family=Paytone+One&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima&family=Carter+One&family=Chango&family=Codystar&family=Finlandica:wght@500&family=Fredericka+the+Great&family=Imbue:opsz,wght@10..100,500&family=Jacques+Francois+Shadow&family=Londrina+Outline&family=Londrina+Shadow&family=Modak&family=Oleo+Script&family=Poiret+One&family=Rampart+One&family=Titan+One&family=Train+One&family=Vast+Shadow&family=Vidaloka&family=Zilla+Slab+Highlight:wght@700&display=swap"
+        rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <!--  NAVIGATION  -->
+
+    <nav class="nav">
+        <h1 class="nav-header">RUFARO NDHLOVU</h1>
+
+        <section class="nav-links">
+            <a href="#about-me-section">About Me</a>
+            <a href="#projects-section">Projects</a>
+            <a href="#skills-section">Skills</a>
+            <a href="#contact-me-section">Contact Me</a>
+        </section>
+        <a><img src="menu-icon.png" alt="menu icon" id="menu-icon" onclick="show()"></a>
+    </nav>
+    <div id="responsive-list">
+        <a href="#about-me-section">About Me</a>
+        <a href="#projects-section">Projects</a>
+        <a href="#skills-section">Skills</a>
+        <a href="#contact-me-section">Contact Me</a>
+    </div>
+
+    <!--  MAIN CONTENT  -->
+
+    <main>
+        <!--  HEADER CONTENT  -->
+
+        <div class="header-section">
+            <img src="header-background-1.jpg" alt="header-background-image" class="header-background">
+
+            <div class="header-text">
+                <h2 class="header-title">Junior Full Stack Developer</h2>
+                <button class="resume-button">RESUME</button>
+            </div>
+        </div>
+
+        <!--  ABOUT ME CONTENT  -->
+
+        <div id="about-me-section">
+            <h3 class="about-me-title">About Me</h3>
+            <div class="about-me-content">
+                <p class="about-me-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae. Donec adipiscing
+                    tristique risus nec feugiat in fermentum posuere. Velit scelerisque in dictum non consectetur a
+                    erat. Erat velit scelerisque in dictum. Mauris ultrices eros in cursus turpis.</p>
+                <img src="Rufaro.jfif" alt="Rufaro" class="rufaro">
+            </div>
+
+        </div>
+
+        <!-- BACK TO TOP BUTTON -->
+
+        <button id="scroll-button" onclick="topFunction()"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+            </svg></button>
+
+        <!--  PROJECTS CONTENT  -->
+
+        <div id="projects-section">
+            <h3 class="projects-title">Projects</h3>
+
+            <!--  PORTFOLIO PROJECT CONTENT  -->
+            <div class="projects-description">
+                <div class="portfolio-project-section">
+                    <h4 class="project-title">Portfolio Website</h4>
+                    <img src="portfolio-project-image.png" class="portfolio-image">
+
+                    <div class="project-text">
+                        <h5>Project Objective:</h5>
+                        <p>To build a club group page that will dynamically respond as you adjust the size of your
+                            screen.
+                        </p>
+                        <h5>Technologies used:</h5>
+                        <ul class="tech-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                        </ul>
+                    </div>
+
+                    <!-- Code Button -->
+                    <button class="code-button">CODE</button>
+
+                    <!-- Live Button -->
+                    <button class="live-button">LIVE</button>
+
+                </div>
+
+                <!--  BAKERY PROJECT CONTENT  -->
+
+                <div class="bakery-project-section">
+                    <h4 class="project-title">Bakery Website</h4>
+                    <img src="bakery-project-image.png" class="bakery-image">
+
+                    <div class="project-text">
+                        <h5>Project Objective:</h5>
+                        <p>To use flexbox to design and build the layout for a company’s homepage.
+                        </p>
+                        <h5>Technologies used:</h5>
+                        <ul class="tech-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+
+                    <!-- Code Button -->
+                    <button class="code-button">CODE</button>
+
+                    <!-- Live Button -->
+                    <button class="live-button">LIVE</button>
+                </div>
+
+                <!--  GYM PROJECT CONTENT  -->
+
+                <div class="gym-project-section">
+                    <h4 class="project-title">Gym Website</h4>
+                    <img src="club-project-image.png" class="club-image">
+                    <div class="project-text">
+                        <h5>Project Objective:</h5>
+                        <p>To build a club group page that will dynamically respond as you adjust the size of your
+                            screen.
+                        </p>
+                        <h5>Technologies used:</h5>
+                        <ul class="tech-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+
+                    <!-- Code Button -->
+                    <button class="code-button">CODE</button>
+
+                    <!-- Live Button -->
+                    <button class="live-button">LIVE</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!--  SKILLS CONTENT  -->
+
+        <div id="skills-section">
+            <h3 class="skills-title">Skills</h3>
+
+            <!--  LANGUAGE ICONS  -->
+
+            <div class="skills-icons">
+
+                <!-- HTML ICON -->
+                <div class="html-icon">
+                    <img src="html5-icon.png" alt="html5-icon" class="icon">
+                    <p>HTML5</p>
+                </div>
+
+                <!-- CSS ICON -->
+                <div class="css-icon">
+                    <img src="css-icon.png" alt="css icon" class="icon">
+                    <p>CSS</p>
+                </div>
+
+                <!-- JavaScript ICON -->
+                <div class="javascript-icon">
+                    <img src="javascript-icon.png" alt="javascript icon" height="140px" width="140px" class="icon">
+                    <p>JavaScript</p>
+                </div>
+
+                <!-- Git ICON -->
+                <div class="git-icon">
+                    <img src="git-icon.png" alt="git icon" class="icon">
+                    <p>GIT</p>
+                </div>
+
+                <!-- GitHub ICON -->
+                <div class="github-icon">
+                    <img src="github-icon.png" alt="gitHub icon" class="icon">
+                    <p>GitHub</p>
+                </div>
+
+                <!-- VS ICON 
+                <div class="visual-studio-icon">
+                    <img src="vs-icon.png" alt="visual studio icon">
+                    <p>Visual Studio</p>
+                </div>-->
+            </div>
+
+        </div>
+
+
+        <div id="contact-me-section">
+            <h3 class="contact-me-title">Contact Me</h3>
+
+            <form action="#" method="POST" class="contact-me-form">
+                <!-- First Name-->
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" id="first-name" value="Jane" required>
+
+                <!-- Last Name -->
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" id="last-name" value="Doe" required>
+
+                <!-- Email Address -->
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" value="example@googlemail.com" required>
+
+                <!-- Message -->
+                <label for="message">Message:</label>
+                <textarea id="message" minlength="3" maxlength="500" rows="4" required>Write message here...</textarea>
+
+                <!-- Submit Button -->
+                <input type="submit" class="submit-button" value="Send">
+
+            </form>
+
+            <div class="social-links">
+                <a href="https://github.com/rufaro-ndhlovu"><img src="github-link.png"></a>
+                <a href="https://www.linkedin.com/in/rufaro-ndhlovu-3a7392bb/"><img src="linkdin-link.png"></a>
+                <a href="mailto:farohanna@gmail.com?subject=Message from my Website"><img src="email-icon.png"></a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER CONTENT -->
+
+    <footer class="footer-section">
+        &copy Rufaro Ndhlovu 2022
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
