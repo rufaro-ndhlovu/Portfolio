@@ -108,9 +108,17 @@
 
 @media screen and (max-width: 540px) {
 
+    /* PROJECTS SECTION */
+
     .portfolio-project-section,
     .bakery-project-section,
     .gym-project-section {
-        width: 85%;
+        width: 95%;
+        height: auto;
     }
+
+    .tech-list {
+        list-style-type: circle;
+    }
+
 }
