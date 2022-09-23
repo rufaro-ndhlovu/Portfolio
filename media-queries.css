@@ -34,7 +34,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         width: 30%;
         text-decoration: none;
         text-transform: uppercase;
@@ -101,7 +101,7 @@
     /* HEADER SECTION */
 
     .header-section {
-        height: auto;
+        height: 28rem;
     }
 
     /* PROJECTS SECTION */
