@@ -79,7 +79,7 @@ nav {
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    height: 38rem;
+    height: 39.5rem;
     position: relative;
     box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.4);
 }
@@ -172,7 +172,7 @@ nav {
 
 .rufaro {
     box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
-    width: 25%;
+    width: 40%;
     height: auto;
     border-radius: 12rem;
     float: right;
