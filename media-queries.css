@@ -121,4 +121,11 @@
         list-style-type: circle;
     }
 
+    /* SCROLL BUTTON */
+
+    #scroll-button {
+        height: auto;
+        width: auto;
+    }
+
 }
