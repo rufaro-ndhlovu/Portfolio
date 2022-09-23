@@ -9,7 +9,6 @@
     body {
         height: auto;
         width: 100%;
-        font-size: 1rem;
     }
 
     /* NAVIGATION SECTION */
@@ -34,7 +33,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         text-align: center;
-        font-size: 1.1rem;
+        font-size: 1rem;
         width: 30%;
         text-decoration: none;
         text-transform: uppercase;
@@ -101,7 +100,12 @@
     /* HEADER SECTION */
 
     .header-section {
-        height: 28rem;
+        height: 30rem;
+    }
+
+    .header-title {
+        font-size: 1.8rem;
+
     }
 
     /* PROJECTS SECTION */
