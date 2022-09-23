@@ -4,7 +4,7 @@ For this project, i built a personal portfolio site, a static website where i ca
 
 **Click on the link below to see the website:**
 
-
+https://rufaro-ndhlovu.github.io/Portfolio/
 
 ## :computer: Project Objectives 
 
