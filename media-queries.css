@@ -3,7 +3,7 @@
     /* UNIVERSAL */
 
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     body {
@@ -34,7 +34,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.2rem;
         width: 30%;
         text-decoration: none;
         text-transform: uppercase;
@@ -79,10 +79,6 @@
 
     }
 
-    .header-background {
-        height: 100%
-    }
-
     /*  PROJECTS  */
 
     .projects-description {
@@ -101,6 +97,12 @@
 }
 
 @media screen and (max-width: 540px) {
+
+    /* HEADER SECTION */
+
+    .header-section {
+        height: auto;
+    }
 
     /* PROJECTS SECTION */
 
