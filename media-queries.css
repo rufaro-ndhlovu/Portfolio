@@ -134,3 +134,20 @@
     }
 
 }
+
+@media screen and (max-width: 380px) {
+    .header-section {
+        height: 24rem;
+        font-size: 0.5rem;
+    }
+
+    .header-title {
+        font-size: 1.5rem;
+
+    }
+
+    .resume-button {
+        width: auto;
+        height: auto;
+    }
+}
