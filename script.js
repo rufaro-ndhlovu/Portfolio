@@ -1,7 +1,9 @@
+// assigning the scroll button in html to the variable mybutton
 
 let mybutton = document.getElementById("scroll-button");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 200px from the top of the document, show the button
+
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
@@ -17,7 +19,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-/*  SHOW AND HIDE MENUS */
+// Show and hide menus when you click on the menu icon
 
 function show() {
 

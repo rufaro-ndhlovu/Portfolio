@@ -1,7 +1,21 @@
 @media screen and (max-width: 960px) {
+
+    /* UNIVERSAL */
+
+    html {
+        font-size: 12px;
+    }
+
+    body {
+        height: auto;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /* NAVIGATION SECTION */
+
     .nav-links a {
         display: none;
-
     }
 
     .nav-header {
@@ -47,44 +61,11 @@
         color: #fff;
     }
 
+    /* SKILLS SECTION */
+
     #skills-section img {
         width: 100px;
         height: 100px;
-    }
-
-    /* UNIVERSAL */
-
-    html {
-        font-size: 12px;
-    }
-
-    body {
-        height: auto;
-        width: 100%;
-        font-size: 1rem;
-    }
-
-    /*  NAV */
-
-    .nav-links a {
-        display: none;
-
-    }
-
-    .nav-header {
-        font-size: 1.6rem;
-    }
-
-    #responsive-links {
-        display: none;
-
-    }
-
-    #menu-icon {
-        display: block;
-        cursor: pointer;
-        right: 1rem;
-
     }
 
     /* HEADER  */
@@ -101,10 +82,6 @@
     .header-background {
         height: 100%
     }
-
-    /*  ABOUT ME */
-
-    /*  SKILLS */
 
     /*  PROJECTS  */
 
@@ -126,7 +103,5 @@
     .gym-project-section {
         width: 50%;
     }
-
-    /*  CONTACT ME  */
 
 }

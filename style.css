@@ -10,13 +10,13 @@ html {
 body {
     background: #FFF;
     color: #000;
-    font-family: sans-serif;
     max-width: 100%;
     max-height: 100%;
     font-family: 'Dosis', sans-serif;
     overflow-x: hidden !important;
     margin: 0;
     line-height: 1.5;
+    font-weight: 600;
 }
 
 /*  NAVIGATION  */
@@ -49,7 +49,6 @@ nav {
 
 
 .nav-links a {
-    list-style-type: none;
     color: #884271;
     padding: 0.8rem;
     z-index: 1;
@@ -293,6 +292,12 @@ nav {
     font-size: 1rem;
 }
 
+.code-button a,
+.live-button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .code-button:hover,
 .live-button:hover {
     cursor: pointer;
@@ -343,11 +348,6 @@ h5 {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.html5-icon {
-    width: 100px;
-    height: 100px;
 }
 
 /*  CONTACT ME */
@@ -437,9 +437,35 @@ textarea {
 
 .footer-section {
     text-align: center;
-    height: 4rem;
+    height: auto;
+    width: 100%;
     background-color: #884271;
     color: #FFF;
     padding: 1rem;
     box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
+    font-size: 1.1rem;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.footer-list a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 0.5rem;
+
+}
+
+.footer-list a:hover {
+    box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    background-color: #FFF;
+    color: #884271;
+    font-weight: 700;
 }
