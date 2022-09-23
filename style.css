@@ -247,7 +247,7 @@ nav {
 .portfolio-project-section,
 .bakery-project-section,
 .gym-project-section {
-    width: 31%;
+    width: 32%;
     box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
     padding: 0.6rem;
     height: auto;
@@ -275,6 +275,8 @@ nav {
 
 .project-title {
     text-decoration: underline;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 .code-button,
@@ -313,8 +315,8 @@ nav {
 
 h5 {
     text-decoration: underline;
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 
