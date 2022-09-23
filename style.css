@@ -350,7 +350,10 @@ h5 {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
+
+
 
 /*  CONTACT ME */
 
