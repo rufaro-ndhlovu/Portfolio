@@ -37,7 +37,7 @@
         text-decoration: none;
         text-transform: uppercase;
         position: absolute;
-        z-index: 10;
+        z-index: 99;
         box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
         border-radius: 0.5rem;
     }
@@ -99,7 +99,7 @@
     /* HEADER SECTION */
 
     .header-section {
-        height: 25.5rem;
+        height: 25.8rem;
     }
 
     .header-title {
