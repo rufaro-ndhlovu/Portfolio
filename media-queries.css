@@ -117,6 +117,12 @@
         height: auto;
     }
 
+    .portfolio-image,
+    .bakery-image,
+    .club-image {
+        height: auto;
+    }
+
     .tech-list {
         list-style-type: circle;
     }
