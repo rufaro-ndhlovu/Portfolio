@@ -166,13 +166,13 @@ nav {
 }
 
 .about-me-paragraph {
-    width: 60%;
+    width: 50%;
     font-size: 1.2rem;
 }
 
 .rufaro {
     box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
-    width: 40%;
+    width: 27%;
     height: auto;
     border-radius: 12rem;
     float: right;
