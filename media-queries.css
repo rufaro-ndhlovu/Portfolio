@@ -136,6 +136,15 @@
 }
 
 @media screen and (max-width: 380px) {
+
+    .about-me-title,
+    .projects-title,
+    .skills-title,
+    .contact-me-title {
+        font-size: 1.5rem;
+        width: 8rem;
+    }
+
     .header-section {
         height: 24rem;
         font-size: 0.5rem;
@@ -152,11 +161,28 @@
     }
 
     .about-me-paragraph {
-        width: 50%;
+        width: 45%;
+        font-size: 1rem;
     }
 
     .rufaro {
-        width: 50%
+        width: 40%
     }
 
+    /* CONTACT ME SECTION */
+
+    .contact-me-form {
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 1175px) {
+    .header-section {
+        height: 42rem;
+    }
+
+    .rufaro {
+        width: 25%;
+    }
 }

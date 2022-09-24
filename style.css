@@ -172,9 +172,9 @@ nav {
 
 .rufaro {
     box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
-    width: 27%;
+    width: 30%;
     height: auto;
-    border-radius: 12rem;
+    border-radius: 100%;
     float: right;
     margin-bottom: 1rem;
 }
@@ -446,9 +446,9 @@ textarea {
     width: 100%;
     background-color: #884271;
     color: #FFF;
-    padding: 1rem;
+    padding: 1.1rem;
     box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .footer-list {
@@ -463,8 +463,8 @@ textarea {
 .footer-list a {
     text-decoration: none;
     color: #FFF;
-    padding: 0.5rem;
-
+    padding: 0.4rem;
+    margin: 0.8rem;
 }
 
 .footer-list a:hover {
