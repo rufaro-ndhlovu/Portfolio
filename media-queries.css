@@ -93,13 +93,13 @@
     }
 
     .footer-section a {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     /* SCROLL BUTTON */
 
     #scroll-button {
-        bottom: 3.5rem;
+        bottom: 4rem;
     }
 
 }
